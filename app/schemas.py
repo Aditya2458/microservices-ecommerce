@@ -7,7 +7,7 @@ class Product(BaseModel):
 
 
 class ProductResponse(BaseModel):
-    id : str
+    id : int
     name : str
     price : float
     description: str
