@@ -15,12 +15,3 @@ class ProductResponse(BaseModel):
     class Config:
         orm_mode=True
     
-class ProductResponse(BaseModel):
-    id : int
-    name : str
-    price : float
-    description: str
-
-    class Config:
-        orm_mode=True
-    
